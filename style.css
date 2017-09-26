@@ -1,0 +1,320 @@
+
+@font-face /*Un tipo de letra*/
+{
+    font-family: 'BallparkWeiner';
+    src: url('fonts/ballpark.eot');
+    src: url('fonts/ballpark.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ballpark.woff') format('woff'),
+         url('fonts/ballpark.ttf') format('truetype'),
+         url('fonts/ballpark.svg#BallparkWeiner') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face /*Tipo de letra*/
+{
+    font-family: 'Dayrom';
+    src: url('fonts/dayrom.eot');
+    src: url('fonts/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('fonts/dayrom.woff') format('woff'),
+         url('fonts/dayrom.ttf') format('truetype'),
+         url('fonts/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body /*Fondo de página*/
+{
+    background: #FF8000;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #181818;
+}
+
+#main_wrapper /*Las dimensiones de las pagina*/
+{
+    width: 900px;
+    margin: auto;
+}
+
+section h1, footer h1, nav a /*Edición del texto*/
+{
+    font-family: Dayrom, serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+header /*Linea  inferior*/
+{
+    background: url('images/line.png') repeat-x bottom;
+}
+section /*Linea superior*/
+{
+    background: url('images/line.png') repeat-x bottom;
+}
+
+#main_title /*Edición del titulo*/
+{
+    display: inline-block;
+    position: relative;
+    left: -100px
+}
+
+header h1 /*Edición del titulo h1*/
+{
+    font-family: 'BallparkWeiner', serif;
+    font-size: 2.5em;
+    font-weight: normal;
+}
+
+#logo, header h1 /*Edición del logo y el h1*/
+{
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+header h2 /* Edición del titulo h2*/
+{
+    font-family: Dayrom, serif;
+    font-size: 1.1em;
+    margin-top: 0px;
+    font-weight: normal;
+}
+
+nav /*Edición de enlaces de navegación principales*/
+{
+    display: inline-block;
+    width: 740px;
+    text-align: right;
+}
+
+nav ul /*Edición de la ul de enlaces de navegación*/
+{
+    list-style-type: none;
+}
+
+nav li /*Edición de la lista de enlaces de navegación*/
+{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav a /*Edicón de los caracteres de enlaces de navegación*/
+{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover /*Edicion de los enlaces de navegación cuando pones el puntero encima*/
+{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+
+#banner_image /*Edicion de la imagen superior barren (logo) arriva iz*/
+{
+    margin-top: 15px;
+    height: 200px;
+    border-radius: 5px;
+    background: url('images/auditt.png') no-repeat;
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+}
+
+#banner_description /*Edición de la imagen superior central*/
+{
+    position: absolute;
+    bottom: 0;
+    border-radius: 0px 0px 5px 5px;
+    width: 99.5%;
+    height: 33px;
+    padding-top: 15px;
+    padding-left: 6px;
+    background-color: rgb(24,24,24); /* Old browsers will read this */
+    background-color: rgba(24,24,24,0.8); /* New browsers will read this */
+    color: white;
+    font-size: 0.8em;
+    
+}
+
+.red_button /*Edición del boton siguientes deseos*/
+{
+    display: inline-block;
+    height: 25px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    border: 2px solid #760001;
+    border-radius: 5px;
+    font-size: 1.1em;
+    text-align: center;
+    padding: 3px 8px 0px 8px;
+    color: yellow;
+    text-decoration: none;
+    font-style: oblique;
+}
+
+.red_button img /*Edicion del rectangulo de Siguiente Deseo*/
+{
+    border: 0;
+}
+
+/*BODY*/
+article, aside /*Edición del articulo TU QUERIDO AUTOR*/
+{
+    display: inline-block;
+    vertical-align: bottom;
+    text-align: justify;
+}
+
+article /*Edición del articulo, La noticia*/
+{
+    width: 625px;
+    margin-right: 15px;
+}
+
+.cat_icon /*Edición Icono de la primera noticia EL NUEVO AUDI TT RS*/
+{
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+article p /*Edición del articulo Noticia, en los parrafos*/
+{
+    font-size: 0.8em;
+}
+
+aside /*Edición del articulo TU QUERIDO AUTOR*/
+{
+    position: relative;
+    top: 7px;
+    width: 235px;
+    background-color: #706b64;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 0.9em;
+}
+#HORARIO/*Edición de HORARIO*/
+{
+    position: absolute;
+    left:870px;
+    top: 520px;
+    width:235px;
+    background-color: #706b64;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 0.9em;
+}   
+#HORARIO h1 p/*Edición del titulo de HORARIO*/
+{
+    position: central
+}
+
+#arrow/*Edición imagen de la sección TU QUERIDO AUTOR*/
+{
+    position: absolute;
+    top: 100px;
+    left: -12px;
+}
+
+#zozor_picture /*Edición imagen de la sección TU QUERIDO AUTOR*/
+{
+    text-align: center;
+}
+
+footer/*Edición del pie de pagina*/
+{
+    background:  url('images/top.png') no-repeat top center, url('images/line.png') repeat-x top, url('images/shadow.png') repeat-x top;
+    padding-top: 25px;
+}
+
+footer p, footer ul/*Edición del parrafo y la lista del pie de pagina*/
+{
+    font-size: 0.8em;
+}
+
+footer h1 /*Edición del titulo del pie de pagina*/
+{
+    font-size: 1.1em;
+}
+
+#tweet, #my_pictures, #my_friends /*Edición de las secciones del pie de pagina*/
+{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#tweet /*Edición de la primera sección*/
+{
+    width: 28%;
+    position: absolute;
+    top: 1400px
+}
+
+#my_pictures /*Edición de la segunda pagina(Mis sueños)*/
+{
+    width: 60%;
+    position: absolute;
+    top: 1200px;
+    right:250px;
+}
+
+#my_friends /*Edicion de la tercera seccion cohes de segunda mano*/
+{
+    width: 31%;
+    position: absolute;
+    top: 1400px;
+    right: 250px
+}
+
+#my_pictures img /* Edición de la imagenes de la segundA seccion(Mis sueños)*/
+{
+    border: 1px solid #181818;
+    margin-right: 2px;
+}
+
+#my_friends ul /*Edición de la lista de coches de segunda mano*/
+{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 0;
+    width: 48%;
+    list-style-image: url('images/external_link.png');
+    padding-left: 2px;
+}
+
+#my_friends a /*Edicion links de coches de segunda mano*/
+{
+    text-decoration: none;
+    color: #760001;
+}
+
+
+/* Applied to older versions of Internet Explorer */
+
+/* To activate inline-block positioning */
+
+.old_ie #main_title, .old_ie #logo, .old_ie header h1, .old_ie nav, .old_ie nav li, .old_ie .red_button, .old_ie article, .old_ie aside, .old_ie #tweet, .old_ie #my_pictures, .old_ie #my_friends, .old_ie #my_friends ul
+{
+    display: inline;
+    zoom: 1;
+}
+
+/* Some other tweaks */
+
+.old_ie section h1, .ie8 section h1
+{
+    font-size: 1.1em;
+}
+
+.old_ie footer div, .ie8 footer div
+{
+    margin-top: 30px;
+    background: url('images/line.png') repeat-x top;
+}
