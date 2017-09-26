@@ -1,0 +1,123 @@
+body/* Edición de toda la pagina web*/
+{
+	background-color:black;
+}
+footer/*Edición del encabezado*/
+{
+	background-color: red;
+	background-image: url(frutitas.png);
+	margin: 10px;
+	padding: 10px;
+	border-radius: 50px;
+	height: 130px;
+	color: black;
+	font-weight: bold;
+
+
+}
+header/*Edición la parte de arriba*/
+{
+	background-color: blue;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 50px;
+	color: white;
+	font-size: 30px;
+	background-image: url(peras.jpg);
+}
+nav/*Edición de navegación*/
+{
+	display:inline-block;
+	background-color: green;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 50px;
+	box-shadow: 6px 6px 6px 0px;
+	position: relative;
+	left: 630px;
+	color: white;
+}
+article/*Edición del primer bloque del medio*/
+{
+	background-color: violet;
+	background-image: url(fruta.jpg);
+	margin: 10px;
+	padding: 10px;
+	border-radius: 10px;
+	font-weight: bold;
+	color: black;
+	font-size: 17px;
+	font-family: cambria;
+}
+div/*Edición de los 2 boques del medio*/
+{
+	background-color: blueviolet;
+	background-image:url(nieve.jpg) ;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 50px;
+	color: black;
+	font-weight: bold;
+	font-size: 16px;
+	font-family: cambria;
+}
+aside/*Edición del medio*/
+{
+	display: inline-flex;
+}
+img/*Edición de la foto del footer*/
+{
+	position: relative;
+	left: 300px;
+	bottom: 140px;
+	width: 15%;
+}
+ul/*Edición de la lista desordenada del footer*/
+{
+	background-color: red;
+	width: 10%;
+	border-radius: 50px;
+	box-shadow: 6px 6px 6px 0px;
+}
+#v
+{
+	background-color: blueviolet;
+	border-radius: 10px;
+	box-shadow: 6px 6px 6px 0px;
+}
+#a
+{
+	background-color: blueviolet;
+	border-radius: 10px;
+	box-shadow: 6px 6px 6px 0px;
+}
+#p
+{
+	background-color: blueviolet;
+	border-radius: 10px;
+	box-shadow: 6px 6px 6px 0px;
+}
+#ad
+{
+	background-color: blueviolet;
+	border-radius: 10px;
+	box-shadow: 6px 6px 6px 0px;
+}
+
+nav :hover /*Editar el color del navegador cuando pones el ratón encima*/
+{
+	color: black;	
+}
+article :hover /*Editar el color del texto cuando pones el ratón encima*/
+{
+	color: white;
+}
+div :hover /*Editar el color del texto cuando pones el ratón encima*/
+{
+	color: yellow;
+
+}
+footer :hover
+{
+	color: yellow;
+}
